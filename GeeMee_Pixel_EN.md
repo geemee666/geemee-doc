@@ -74,6 +74,10 @@ Pixel supports collecting events and their descriptions are as follows:
 | EVENT_KEY_INAPP_EVENT_3       | Key Event 3                                                                                                        |
 | EVENT_AD_VIEW                 | (On the website) Advertising viewing                                                                               |
 | EVENT_AD_CLICK                | Ad click                                                                                                           |
+| EVENT_PWA_INSTALL             | User initiates PWA application installation                                                                        |
+| EVENT_PWA_OPEN                | After the user installs the PWA application, try to invoke the PWA application                                     |
+| EVENT_PWA_ACTIVATE            | After the user installs the PWA application, opening the PWA application for the first time                        |
+| EVENT_LOGIN                   | User Login                                                                                                         |
 
 #### 3.2 Event attributes collected by Pixel
 
