@@ -65,35 +65,39 @@ An HTTP `200 OK` response indicates a successful API call.
 
 Use our predefined standard events to maximize campaign optimization. Select the most relevant event name for user actions:
 
-| ​**Event Name**​                | ​**Description**​                              |
-| ------------------------------- | ---------------------------------------------- |
-| `EVENT_ADD_PAYMENT_INFO`        | Payment info added during checkout             |
-| `EVENT_ADD_TO_CART`             | Item added to cart                             |
-| `EVENT_BUTTON_CLICK`            | Button clicked                                 |
-| `EVENT_PURCHASE`                | Payment completed                              |
-| `EVENT_CONTENT_VIEW`            | Page viewed                                    |
-| `EVENT_DOWNLOAD`                | Clicked download link (opens external browser) |
-| `EVENT_FORM_SUBMIT`             | Form submitted                                 |
-| `EVENT_INITIATED_CHECKOUT`      | Checkout process started                       |
-| `EVENT_CONTACT`                 | Contact/consultation initiated                 |
-| `EVENT_PLACE_ORDER`             | Order placed                                   |
-| `EVENT_SEARCH`                  | Search performed                               |
-| `EVENT_COMPLETE_REGISTRATION`   | Registration completed                         |
-| `EVENT_ADD_TO_WISHLIST`         | Item added to wishlist                         |
-| `EVENT_SUBSCRIBE`               | Subscription completed                         |
-| `EVENT_FIRST_DEPOSIT`           | First deposit made                             |
-| `EVENT_CREDIT_APPROVAL`         | Credit approved                                |
-| `EVENT_LOAN_APPLICATION`        | Loan application submitted                     |
-| `EVENT_LOAN_CREDIT`             | Loan approved                                  |
-| `EVENT_LOAN_DISBURSAL`          | Loan disbursed                                 |
-| `EVENT_CREDIT_CARD_APPLICATION` | Credit card application submitted              |
-| `EVENT_VALUE_PRODUCE`           | Value generated                                |
-| `EVENT_KEY_INAPP_EVENT`         | Key in-app event                               |
-| `EVENT_KEY_INAPP_EVENT_1`       | Key in-app event 1                             |
-| `EVENT_KEY_INAPP_EVENT_2`       | Key in-app event 2                             |
-| `EVENT_KEY_INAPP_EVENT_3`       | Key in-app event 3                             |
-| `EVENT_AD_VIEW`                 | (In-page) ad viewed                            |
-| `EVENT_AD_CLICK`                | (In-page) ad clicked                           |
+| ​**Event Name**​                | ​**Description**​                                                                           |
+| ------------------------------- | ------------------------------------------------------------------------------------------- |
+| `EVENT_ADD_PAYMENT_INFO`        | Payment info added during checkout                                                          |
+| `EVENT_ADD_TO_CART`             | Item added to cart                                                                          |
+| `EVENT_BUTTON_CLICK`            | Button clicked                                                                              |
+| `EVENT_PURCHASE`                | Payment completed                                                                           |
+| `EVENT_CONTENT_VIEW`            | Page viewed                                                                                 |
+| `EVENT_DOWNLOAD`                | Clicked download link (opens external browser)                                              |
+| `EVENT_FORM_SUBMIT`             | Form submitted                                                                              |
+| `EVENT_INITIATED_CHECKOUT`      | Checkout process started                                                                    |
+| `EVENT_CONTACT`                 | Contact/consultation initiated                                                              |
+| `EVENT_PLACE_ORDER`             | Order placed                                                                                |
+| `EVENT_SEARCH`                  | Search performed                                                                            |
+| `EVENT_COMPLETE_REGISTRATION`   | Registration completed                                                                      |
+| `EVENT_ADD_TO_WISHLIST`         | Item added to wishlist                                                                      |
+| `EVENT_SUBSCRIBE`               | Subscription completed                                                                      |
+| `EVENT_FIRST_DEPOSIT`           | First deposit made                                                                          |
+| `EVENT_CREDIT_APPROVAL`         | Credit approved                                                                             |
+| `EVENT_LOAN_APPLICATION`        | Loan application submitted                                                                  |
+| `EVENT_LOAN_CREDIT`             | Loan approved                                                                               |
+| `EVENT_LOAN_DISBURSAL`          | Loan disbursed                                                                              |
+| `EVENT_CREDIT_CARD_APPLICATION` | Credit card application submitted                                                           |
+| `EVENT_VALUE_PRODUCE`           | Value generated                                                                             |
+| `EVENT_KEY_INAPP_EVENT`         | Key in-app event                                                                            |
+| `EVENT_KEY_INAPP_EVENT_1`       | Key in-app event 1                                                                          |
+| `EVENT_KEY_INAPP_EVENT_2`       | Key in-app event 2                                                                          |
+| `EVENT_KEY_INAPP_EVENT_3`       | Key in-app event 3                                                                          |
+| `EVENT_AD_VIEW`                 | (In-page) ad viewed                                                                         |
+| `EVENT_AD_CLICK`                | (In-page) ad clicked                                                                        |
+| `EVENT_PWA_INSTALL`             | User initiates PWA application installation                                                 |
+| `EVENT_PWA_OPEN`                | After the user installs the PWA application, try to invoke the PWA application              |
+| `EVENT_PWA_ACTIVATE`            | After the user installs the PWA application, opening the PWA application for the first time |
+| `EVENT_LOGIN`                   | User Login                                                                                  |
 
 ### Event Attributes
 
