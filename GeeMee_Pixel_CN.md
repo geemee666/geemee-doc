@@ -72,6 +72,10 @@ Pixel 支持采集的事件及其说明如下：
 | EVENT_KEY_INAPP_EVENT_3       | 关键事件 3 触发                     |
 | EVENT_AD_VIEW                 | 广告浏览时触发（网站端）                  |
 | EVENT_AD_CLICK                | 广告点击时触发                       |
+| EVENT_PWA_INSTALL             | 用户发起PWA应用安装                   |
+| EVENT_PWA_OPEN                | 用户安装PWA应用后，尝试唤起PWA应用          |
+| EVENT_PWA_ACTIVATE            | 用户安装PWA应用后，首次打开PWA应用          |
+| EVENT_LOGIN                   | 用户登录                          |
 
 ### 3.2 Pixel 采集的事件属性
 
